@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    font-family: arial;
+  }
+  .onboarding {
+    background-color:rgb(39, 87, 165);
+    box-shadow:rgba(0, 0, 0, 0.2) 0px 0px 5px 1px;
+    box-sizing:border-box;
+    color:rgb(255, 255, 255);
+    display:flex;
+  flex-direction:column;
+  justify-content: space-between;
+  font-size:15px;
+  height:237px;
+  margin-bottom:15px;
+  margin-top:15px;
+  padding-bottom:20px;
+  position:relative;
+  width:572px;
+  }
+  .close-icon {
+    padding: 0;
+    border: 2px solid #4fc2ff;
+    color: #fff;
+    font-weight: 500;
+    text-shadow: none!important;
+    background: rgba(1,1,1,.35);
+    font-weight: 700;
+    border-radius: 90%;
+    cursor: pointer;
+        background-image: linear-gradient(180deg,rgba(0,0,0,.28),rgba(0,0,0,.28)),linear-gradient(180deg,#2e92d8,#5a5ed3);
+            text-align: center;
+    width: 24px;
+    position: absolute;
+    height: 24px;
+    right: 8px;
+    top: 5px;
+    z-index: 2002;
+  }
+  .button {
+  align-items:flex-start;
+  background-color:rgb(221, 221, 221);
+  background-image:linear-gradient(rgba(0, 0, 0, 0.28), rgba(0, 0, 0, 0.28)), linear-gradient(rgb(46, 146, 216), rgb(90, 94, 211));
+  border-radius: 26px;
+  border: 2px solid rgb(73,198,243);
+  box-sizing:border-box;
+  color:rgb(255, 255, 255);
+  cursor:pointer;
+  display:block;
+  margin: 0 auto;
+  font-size:18px;
+  font-weight:500;
+  height:36px;
+  min-width:160px;
+  max-width:542px;
+  width: 100%;
+  }
+  .button:hover {
+    background-image: linear-gradient(180deg,rgba(79,209,255,.28),rgba(79,209,255,.28)),linear-gradient(180deg,#2e92d8,#5a5ed3);
+  }
+  .inner {
+    align-content:center;
+  align-items:center;
+  box-sizing:border-box;
+  color:rgb(255, 255, 255);
+  cursor:pointer;
+  display:flex;
+  font-size:18px;
+  font-weight:500;
+  height:21px;
+  justify-content:center;
+  text-align:center;
+  text-decoration-color:rgb(255, 255, 255);
+  }
+
+  .step-bar{
+    height: 10px;
+    background: black;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .step-status{
+    width: 0px;
+    height: 10px;
+    background: green;
+    margin: 0 auto;
+    position: absolute;
+  }
+
+  .step{
+    background-color: white;
+	  color: white;
+	  width: 20px;
+	  height: 20px;
+	  border-radius: 10px;
+    text-align:center;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    top: -5px;
+  }
